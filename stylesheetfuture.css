@@ -1,0 +1,308 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+  width:100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position:fixed;
+  top:0;
+  z-index:100;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+
+.history:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.Profile:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.future:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a{
+  float: left;
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+
+.wakuwaku{
+  color:yellow;
+}
+
+
+.top-wrapper{
+
+  width:100%;
+}
+
+
+.top-contents{
+  background-image: url(future.jpg);
+  background-size: cover;
+  height:609px;
+}
+
+
+
+.content5-1{
+  padding-top:120px;
+  padding-bottom: 40px;
+}
+
+.content5-1 h2{
+  border-bottom: 4px solid gray;
+  width:175px;
+  color:black;
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 40px;
+  background-color: white;
+  border-radius: 30px;
+  display: none;
+}
+
+.top-contents{
+  margin:0 auto;
+  text-align: center;
+}
+
+.content5-2 p{
+  color:white;
+  display: none;
+}
+
+.main-p{
+  font-size: 28px;
+}
+
+
+footer{
+  transition: all 0.5s;
+}
+
+
+footer img {
+  width: 125px;
+
+}
+
+
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+  text-align: center;
+}
+
+
+@media (min-width:1000px) {
+  .container4{
+    width:400px;
+    margin:0 auto;
+    position: relative;
+  }
+}
+
+.container5{
+  width:400px;
+  margin:0 auto;
+}
+
+
+
+.lighthouse{
+  height:45px;
+  width:115px;
+  position: absolute;
+  top:80px;
+  left:0;
+}
+
+.en{
+  height:60px;
+  width:70px;
+  position: absolute;
+  top:30px;
+  left:150px;
+}
+
+.hirehub{
+  height:44.77px;
+  width:120px;
+  position: absolute;
+  top:80px;
+  left:255px;
+}
+
+
+
+.lighthouse:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.en:hover {
+  background-color:rgba(255, 255, 255, 0.5);
+}
+
+.hirehub:hover {
+  background-color:rgba(255, 255, 255, 0.5);
+}
+
+.container5 a {
+  float: left;
+  line-height: 65px;
+  padding: 0 5px;
+  color: white;
+  display: block;
+}
+
+
+@media (max-width:670px) {
+
+
+  .top-contents{
+    margin:0 auto;
+    text-align: center;
+    height:700px;
+  }
+
+
+  .content5-2 {
+    width:95%;
+    margin:0 auto;
+  }
+
+
+
+
+  header {
+    height: 65px;
+    width: 100%;
+
+  }
+
+  .header-right {
+    float: left;
+
+  }
+
+
+  .header-right a {
+    float: left;
+
+  }
+
+
+
+  footer{
+    transition: all 0.5s;
+    text-align: center;
+    width:100%;
+  }
+
+
+  footer img {
+    width: 110px;
+
+  }
+
+
+
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .container4{
+
+    margin:0 auto;
+    position: relative;
+  }
+
+
+  .container5{
+    width:100%;
+    margin:0 auto;
+  }
+
+
+
+  .lighthouse{
+    height:45px;
+    width:115px;
+    position: absolute;
+    top:70px;
+    left:10px;
+  }
+
+  .en{
+    height:60px;
+    width:70px;
+    position: absolute;
+    top:30px;
+    left:150px;
+  }
+
+  .hirehub{
+    height:44.77px;
+    width:120px;
+    position: absolute;
+    top:72px;
+    left:235px;
+  }
+
+
+
+  .lighthouse:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+
+  .en:hover {
+    background-color:rgba(255, 255, 255, 0.5);
+  }
+
+  .hirehub:hover {
+    background-color:rgba(255, 255, 255, 0.5);
+  }
+
+  .container5 a {
+    float: left;
+    line-height: 65px;
+    padding: 0 5px;
+    color: white;
+    display: block;
+  }
+
+
+  .top-contents{
+    background-image: url(future2.jpg);
+  }
+
+
+
+
+}
